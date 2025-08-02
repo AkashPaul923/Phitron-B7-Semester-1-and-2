@@ -88,12 +88,12 @@
 ### String Sorting
 | Operation | Syntax | Time Complexity | Description |
 |-----------|--------|-----------------|-------------|
-| Ascending | `std::sort(str.begin(), str.end())` | O(n log n) | Sort in ascending order |
-| Descending | `std::sort(str.begin(), str.end(), std::greater<char>())` | O(n log n) | Sort in descending order |
+| Ascending | `sort(str.begin(), str.end())` | O(n log n) | Sort in ascending order |
+| Descending | `sort(str.begin(), str.end(), greater<char>())` | O(n log n) | Sort in descending order |
 
 ### Vector Sorting
 | Operation | Syntax | Time Complexity | Description |
 |-----------|--------|-----------------|-------------|
-| Ascending | `std::sort(vec.begin(), vec.end())` | O(n log n) | Sort in ascending order |
-| Descending | `std::sort(vec.begin(), vec.end(), std::greater<T>())` | O(n log n) | Sort in descending order |
-| Custom | `std::sort(vec.begin(), vec.end(), comparator)` | O(n log n) | Sort with custom comparator |
+| Ascending | `sort(vec.begin(), vec.end())` | O(n log n) | Sort in ascending order |
+| Descending | `sort(vec.begin(), vec.end(), greater<T>())` | O(n log n) | Sort in descending order |
+| Custom | `sort(vec.begin(), vec.end(), comparator)` | O(n log n) | Sort with custom comparator |
