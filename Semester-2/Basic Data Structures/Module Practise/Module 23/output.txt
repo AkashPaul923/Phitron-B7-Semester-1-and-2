@@ -1,3 +1,8 @@
-akib 21 91
-sakib 25 91
-rakib 34 95
+He -> 1
+I -> 1
+They -> 1
+cricket -> 1
+football -> 3
+love -> 3
+loves -> 1
+we -> 1
